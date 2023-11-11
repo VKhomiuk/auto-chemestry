@@ -1,0 +1,47 @@
+.wrapp {
+    padding: 40px 80px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: #F5F5F5;
+
+    /* H3 */
+    font-family: Roboto ;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ask_wrapp {
+    margin: 48px 56px 0 56px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ask_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #F5F5F5;;
+}
+
+.ask_text {
+    color: #F5F5F5;
+
+    /* Н6-text */
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.separator {
+    margin-bottom: 20px;
+}
