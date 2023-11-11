@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.698bbe22.css",
-    "main.js": "/static/js/main.bcce9781.js",
-    "static/js/787.924dff7b.chunk.js": "/static/js/787.924dff7b.chunk.js",
-    "static/media/carEngine.png": "/static/media/carEngine.8a3f14ce30f11df679f5.png",
-    "static/media/car-dashboard.png": "/static/media/car-dashboard.807a65da2523c928fa15.png",
-    "static/media/mainSection.png": "/static/media/mainSection.e0414a32e0417476841d.png",
-    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
-    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
-    "static/media/box.png": "/static/media/box.ccf2d7cc3c64af448291.png",
-    "static/media/test.png": "/static/media/test.559adc9b48e0f27a0dd9.png",
-    "static/media/chemistry.png": "/static/media/chemistry.87cea7a33583e71db92a.png",
-    "index.html": "/index.html",
-    "main.698bbe22.css.map": "/static/css/main.698bbe22.css.map",
-    "main.bcce9781.js.map": "/static/js/main.bcce9781.js.map",
-    "787.924dff7b.chunk.js.map": "/static/js/787.924dff7b.chunk.js.map"
+    "main.css": "/auto-chemestry/static/css/main.086d326d.css",
+    "main.js": "/auto-chemestry/static/js/main.928e86b2.js",
+    "static/js/787.924dff7b.chunk.js": "/auto-chemestry/static/js/787.924dff7b.chunk.js",
+    "static/media/carEngine.png": "/auto-chemestry/static/media/carEngine.8a3f14ce30f11df679f5.png",
+    "static/media/car-dashboard.png": "/auto-chemestry/static/media/car-dashboard.807a65da2523c928fa15.png",
+    "static/media/mainSection.png": "/auto-chemestry/static/media/mainSection.e0414a32e0417476841d.png",
+    "static/media/Montserrat-Regular.ttf": "/auto-chemestry/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
+    "static/media/Roboto-Regular.ttf": "/auto-chemestry/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/box.png": "/auto-chemestry/static/media/box.ccf2d7cc3c64af448291.png",
+    "static/media/test.png": "/auto-chemestry/static/media/test.559adc9b48e0f27a0dd9.png",
+    "static/media/chemistry.png": "/auto-chemestry/static/media/chemistry.87cea7a33583e71db92a.png",
+    "index.html": "/auto-chemestry/index.html",
+    "main.086d326d.css.map": "/auto-chemestry/static/css/main.086d326d.css.map",
+    "main.928e86b2.js.map": "/auto-chemestry/static/js/main.928e86b2.js.map",
+    "787.924dff7b.chunk.js.map": "/auto-chemestry/static/js/787.924dff7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.698bbe22.css",
-    "static/js/main.bcce9781.js"
+    "static/css/main.086d326d.css",
+    "static/js/main.928e86b2.js"
   ]
 }
