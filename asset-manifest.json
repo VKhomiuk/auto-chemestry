@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/auto-chemestry/static/css/main.086d326d.css",
-    "main.js": "/auto-chemestry/static/js/main.928e86b2.js",
+    "main.css": "/auto-chemestry/static/css/main.b24e341a.css",
+    "main.js": "/auto-chemestry/static/js/main.7c3a03e1.js",
     "static/js/787.924dff7b.chunk.js": "/auto-chemestry/static/js/787.924dff7b.chunk.js",
     "static/media/carEngine.png": "/auto-chemestry/static/media/carEngine.8a3f14ce30f11df679f5.png",
+    "static/media/motul.png": "/auto-chemestry/static/media/motul.2e8e58c0762b7a1c5e98.png",
+    "static/media/SourceSans-Regular.ttf": "/auto-chemestry/static/media/SourceSans-Regular.d5f259bc2699f6304f9a.ttf",
+    "static/media/car-wash-detailing-station.png": "/auto-chemestry/static/media/car-wash-detailing-station.8ad45bc984218cf52318.png",
+    "static/media/catalogImg.png": "/auto-chemestry/static/media/catalogImg.7948e2d193cf57809213.png",
     "static/media/car-dashboard.png": "/auto-chemestry/static/media/car-dashboard.807a65da2523c928fa15.png",
     "static/media/mainSection.png": "/auto-chemestry/static/media/mainSection.e0414a32e0417476841d.png",
     "static/media/Montserrat-Regular.ttf": "/auto-chemestry/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
     "static/media/Roboto-Regular.ttf": "/auto-chemestry/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/DMSans-Regular.ttf": "/auto-chemestry/static/media/DMSans-Regular.5796ba67a2ae308b784c.ttf",
     "static/media/box.png": "/auto-chemestry/static/media/box.ccf2d7cc3c64af448291.png",
     "static/media/test.png": "/auto-chemestry/static/media/test.559adc9b48e0f27a0dd9.png",
+    "static/media/priceFilter.svg": "/auto-chemestry/static/media/priceFilter.f28a377fbb9f5aac7b3b2f92db42f93e.svg",
     "static/media/chemistry.png": "/auto-chemestry/static/media/chemistry.87cea7a33583e71db92a.png",
     "index.html": "/auto-chemestry/index.html",
-    "main.086d326d.css.map": "/auto-chemestry/static/css/main.086d326d.css.map",
-    "main.928e86b2.js.map": "/auto-chemestry/static/js/main.928e86b2.js.map",
+    "static/media/slideButton.svg": "/auto-chemestry/static/media/slideButton.3e54bee6050af6bb377d74b76a9f389c.svg",
+    "main.b24e341a.css.map": "/auto-chemestry/static/css/main.b24e341a.css.map",
+    "main.7c3a03e1.js.map": "/auto-chemestry/static/js/main.7c3a03e1.js.map",
     "787.924dff7b.chunk.js.map": "/auto-chemestry/static/js/787.924dff7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.086d326d.css",
-    "static/js/main.928e86b2.js"
+    "static/css/main.b24e341a.css",
+    "static/js/main.7c3a03e1.js"
   ]
 }
