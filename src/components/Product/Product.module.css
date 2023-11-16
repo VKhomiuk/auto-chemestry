@@ -57,3 +57,9 @@
     align-items: center;
     min-width: 216px;
 }
+
+.productImg {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}

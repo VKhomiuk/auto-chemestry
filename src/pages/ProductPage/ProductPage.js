@@ -6,10 +6,12 @@ import Product from "../../components/Product/Product";
 
 const ProductPage = () => {
 
-    const [amount, setAmount] = useState(1)
+    const [amount, setAmount] = useState(90)
 
     const handleIncreaseAmount = () => {
-        setAmount((prev) => prev + 1)
+        if (amount < 99) {
+            setAmount((prev) => prev + 1)
+        }
     }
 
     const handleDecreaseAmount = () => {

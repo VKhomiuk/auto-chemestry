@@ -39,6 +39,16 @@
     letter-spacing: 2.4px;
 }
 
+.main_section__button-text {
+    color: #F5F5F5;
+    /* Н5-button */
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .main_section__button {
     padding: 16px;
     justify-content: center;
@@ -48,16 +58,7 @@
     border: 1px solid #EDCD94;
     background: rgba(28, 28, 28, 0.50);
     width: 233px;
-}
-
-.main_section__button-text {
-    color: #F5F5F5;
-    /* Н5-button */
-    font-family: Montserrat;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    text-decoration: none;
 }
 
 .block_wrapper {

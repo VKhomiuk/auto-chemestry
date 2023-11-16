@@ -1,5 +1,6 @@
 import React from 'react'
 import s from './Catalog.module.css'
+import {Link} from 'react-router-dom'
 
 import Test from '../../assets/images/test.png'
 import Bag from '../../assets/icons/bag.png'
@@ -34,11 +35,11 @@ const Catalog = (props) => {
             <div className={s.catalog_items}>
                 {empty.map(() => <Product/>)}
             </div>
-            <div className={s.button}>
+            <Link to='/catalog' className={s.button}>
                 <span className={s.button_text}>
                     Дивитись ще
                 </span>
-            </div>
+            </Link>
         </div>
     )
 }

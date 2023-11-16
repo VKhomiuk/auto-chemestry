@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom";
 import MainSection from "../../assets/images/mainSection.png";
 import Chemistry from "../../assets/images/chemistry.png";
 import SectionItem from "../../components/SectionItem/SectionItem";
@@ -45,11 +46,11 @@ const Home = () => {
                     <h2 className='main_section__title'>
                         Ваше авто — наш догляд
                     </h2>
-                    <div className='main_section__button'>
-                    <span className='main_section__button-text'>
-                        Перейти в каталог
-                    </span>
-                    </div>
+                    <Link to='/catalog' className='main_section__button'>
+                        <span className='main_section__button-text'>
+                            Перейти в каталог
+                        </span>
+                    </Link>
                 </div>
             </div>
             <div className='block_wrapper'>
@@ -62,7 +63,7 @@ const Home = () => {
                 />
             </div>
             <div className='default_wrapper'>
-                <BoxCatalog />
+                <BoxCatalog/>
             </div>
             <div className='default_wrapper'>
                 <img src={CarEngine} alt='carEngine'/>
@@ -74,10 +75,10 @@ const Home = () => {
                 />
             </div>
             <div className='default_wrapper'>
-                <Faq />
+                <Faq/>
             </div>
             <div className='default_wrapper'>
-                <LastSection />
+                <LastSection/>
             </div>
         </div>
     )
