@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/auto-chemestry/static/css/main.b24e341a.css",
-    "main.js": "/auto-chemestry/static/js/main.7c3a03e1.js",
+    "main.js": "/auto-chemestry/static/js/main.0923870d.js",
     "static/js/787.924dff7b.chunk.js": "/auto-chemestry/static/js/787.924dff7b.chunk.js",
     "static/media/carEngine.png": "/auto-chemestry/static/media/carEngine.8a3f14ce30f11df679f5.png",
     "static/media/motul.png": "/auto-chemestry/static/media/motul.2e8e58c0762b7a1c5e98.png",
@@ -20,11 +20,11 @@
     "index.html": "/auto-chemestry/index.html",
     "static/media/slideButton.svg": "/auto-chemestry/static/media/slideButton.3e54bee6050af6bb377d74b76a9f389c.svg",
     "main.b24e341a.css.map": "/auto-chemestry/static/css/main.b24e341a.css.map",
-    "main.7c3a03e1.js.map": "/auto-chemestry/static/js/main.7c3a03e1.js.map",
+    "main.0923870d.js.map": "/auto-chemestry/static/js/main.0923870d.js.map",
     "787.924dff7b.chunk.js.map": "/auto-chemestry/static/js/787.924dff7b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b24e341a.css",
-    "static/js/main.7c3a03e1.js"
+    "static/js/main.0923870d.js"
   ]
 }
