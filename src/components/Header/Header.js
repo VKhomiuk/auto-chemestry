@@ -5,6 +5,7 @@ import Logo from '../../assets/images/Logo.png'
 import Search from '../../assets/icons/search.png'
 import Bag from '../../assets/icons/bag.png'
 import Arrow from '../../assets/icons/polygon.png'
+import {Link} from "react-router-dom";
 
 const Header = () => {
 
@@ -17,7 +18,8 @@ const Header = () => {
         },
         {
             name: 'Каталог',
-            key: 'store'
+            key: 'catalog',
+            enableNav: true
         },
         {
             name: 'Контакти',
@@ -48,9 +50,10 @@ const Header = () => {
                         const isLast = index === array.length - 1
 
                         return (
-                            <p className={`${s.nav_link} ${!isLast && s.nav_link__separator}`}>
+                            <Link className={`${s.nav_link} ${!isLast && s.nav_link__separator}`}
+                                  to={item?.enableNav ? item.key : '/'}>
                                 {item.name}
-                            </p>
+                            </Link>
                         )
                     })}
                 </div>

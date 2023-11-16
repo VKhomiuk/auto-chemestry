@@ -1,0 +1,279 @@
+.wrapp {
+    padding: 188px 80px 40px 80px;
+    box-sizing: border-box;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.productPageWrapp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.productInfoBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productImagesList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.productImageThumbnail {
+    margin-bottom: 40px;
+}
+
+.productThumbnail {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.productSelectedImageWrapp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productInfoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.productImage {
+    width: 540px;
+    height: 600px;
+    object-fit: contain;
+}
+
+.productImageSlider {
+    width: 540px;
+    height: 1px;
+    background: #F5F5F5;
+    position: relative;
+    margin-top: 24px;
+}
+
+.productImageSliderActive {
+    width: 206.766px;
+    height: 3px;
+    background: #EDCD94;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.title {
+    color: #F5F5F5;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.price {
+    color: #EDCD94;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 64px;
+}
+
+.description {
+    color: #F5F5F5;
+
+    /* Н8 */
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.buyCont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.amountSelector {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    background: #2F2C2D;
+    box-sizing: border-box;
+    padding: 12px 16px;
+    margin-right: 32px;
+    height: 55px;
+
+}
+
+.amount {
+    color: #F5F5F5;
+
+    /* 16px - Heading 5 */
+    font-family: DMSans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 168.75% */
+}
+
+.amountCount {
+    padding: 0 24px;
+}
+
+.button {
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+    border: 1px solid #EDCD94;
+    background: rgba(28, 28, 28, 0.50);
+    width: 352px;
+    height: 21px;
+}
+
+.buttonText {
+    color: #F5F5F5;
+
+    /* Н5-button */
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.categoryWrapp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.category {
+    color: #F5F5F5;
+
+    /* 16px - Heading 5 */
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 168.75% */
+    margin-right: 16px;
+}
+
+.categoryText {
+    color: #EDCD94;
+
+    /* 16px - Heading 5 */
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 168.75% */
+}
+
+.separator {
+    width: 1210px;
+    height: 1px;
+    background: #F5F5F5;
+    margin-top: 100px       ;
+}
+
+.tabWrapp {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 1210px;
+}
+
+.tabCont {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabText {
+    color: #F5F5F5;
+
+    /* H7 */
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.tabUnderline {
+    margin-top: 18px;
+    height: 3px;
+    width: 100%;
+    background: #EDCD94;
+}
+
+.textDescription {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    width: 1210px;
+}
+
+.text {
+    color: #F5F5F5;
+    /* Н6-text */
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.relatedWrapp {
+    width: 1210px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.relatedWrappTitle {
+    color: #F5F5F5;
+
+    /* H7 */
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.relatedProductsCont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1210px;
+}

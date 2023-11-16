@@ -28,12 +28,14 @@
 }
 
 .nav_link {
+    cursor: pointer;
     color: #FFF;
     font-family: Montserrat;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-decoration: none;
 }
 
 .nav_link__separator {

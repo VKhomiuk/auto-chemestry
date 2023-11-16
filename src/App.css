@@ -74,6 +74,12 @@
     margin: 0 auto;
 }
 
+.separator {
+    height: 1px;
+    min-width: 100vw;
+    background: #F5F5F5;
+}
+
 @font-face {
     font-family: 'Montserrat';
     src: url('../public/Montserrat-Regular.ttf');
@@ -82,4 +88,14 @@
 @font-face {
     font-family: 'Roboto';
     src: url('../public/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'SourceSans';
+    src: url('../public/SourceSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'DmSans';
+    src: url('../public/DMSans-Regular.ttf');
 }

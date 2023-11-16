@@ -3,6 +3,7 @@ import s from './Catalog.module.css'
 
 import Test from '../../assets/images/test.png'
 import Bag from '../../assets/icons/bag.png'
+import Product from "../Product/Product";
 
 const Catalog = (props) => {
 
@@ -31,23 +32,7 @@ const Catalog = (props) => {
                 })}
             </div>
             <div className={s.catalog_items}>
-                {empty.map(() => <div className={s.item_container}>
-                    <img src={Test} alt='test'/>
-                    <div className={s.info_wrap}>
-                    <span className={s.name}>
-                        Shell Helix HX8 5W-40
-                    </span>
-                        <span className={s.type}>
-                        Мастило
-                    </span>
-                    </div>
-                    <div className={s.cost_block}>
-                    <span className={s.cost}>
-                        1 286 грн
-                    </span>
-                        <img src={Bag} alt='bag'/>
-                    </div>
-                </div>)}
+                {empty.map(() => <Product/>)}
             </div>
             <div className={s.button}>
                 <span className={s.button_text}>

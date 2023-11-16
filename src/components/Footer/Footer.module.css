@@ -1,0 +1,90 @@
+.wrapp {
+    padding-top: 40px;
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navCont {
+    display: flex;
+    flex-direction: column;
+    max-width: 270px;
+    width: 100%;
+}
+
+.navItem {
+    color: #F5F5F5;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-variant: small-caps;
+    margin-bottom: 32px;
+}
+
+.lastNav {
+    margin-bottom: 0;
+}
+
+.logoSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: 86px;
+}
+
+.contactUsWrapp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.contactUsItem {
+    margin-right: 40px;
+}
+
+.contactUsItemLast {
+    margin-right: 0;
+}
+
+.allRightsText {
+    margin-top: 40px;
+    color: #FBFCFB;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14.222px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+.telephoneWrapp {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contactUsText {
+    color: #F5F5F5;
+    text-align: center;
+    /* text 2 */
+    font-family: SourceSans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.contactUsTextLast {
+    margin-top: 24px;
+}
