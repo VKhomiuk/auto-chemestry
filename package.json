@@ -14,7 +14,6 @@
     "scss": "^0.2.4",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://vkhomiuk.github.io/auto-chemestry",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
